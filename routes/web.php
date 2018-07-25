@@ -32,7 +32,7 @@ Route::get('/send', 'MailController@send');
 Route::get('/newsletter', 'ImportController@newsletter');
 */
 // Homepage Route
-Route::get('/subscriber', 'MailController@subscriber');
+//Route::get('/subscriber', 'MailController@subscriber');
 
 
 Route::get('/', 'WelcomeController@welcome')->name('welcome');
