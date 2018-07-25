@@ -1,0 +1,39 @@
+/*
+1. General css
+2. Front Page
+*/
+
+/* 2. General css */
+
+/* inner rows wrapping content */
+
+.col-md-12 .row {
+    padding: 15px;
+    font-size: 16px;
+}
+
+/* inner h1 heading */
+
+.row .col-md-12 h1 {
+    margin-top: 11px;
+}
+
+/* 2. Front Page */
+
+.welcome .btn {
+    min-width: 400px;
+    margin: 10px 0 10px 0;
+    font-weight: bold;
+}
+
+.start {
+    min-width: 400px;
+    margin: 10px 0 10px 0;
+    font-weight: bold;
+}
+.top-buffer { margin-top:20px; }
+
+.front-page-logged-in-advice {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
